@@ -1,3 +1,5 @@
+Please excuse the errors and bugs; everything was programmed in 3 hours as a small challenge.
+
 Super Square Runner is an infinite runner game inspired by the Chrome dinosaur, but with a modern twist! Control a square dinosaur, dodge obstacles, collect special power-ups, and try to survive as long as possible in a world that gets progressively faster and more challenging. This is my first game!
 my first game by raylib and python
 
