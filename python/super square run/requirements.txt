@@ -1,0 +1,2 @@
+raylibpy #pip install raylib-py
+python 3.12 or 3.14
