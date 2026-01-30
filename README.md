@@ -1,5 +1,5 @@
-Hello! I'm **Eduarda Victoria**, also known as **Wahi (wahipogo)**.
-I'm a **self-taught programming student**, passionate about learning and creating through technology. I have **basic knowledge of Python** and I’m currently studying **C**, focusing on strengthening my foundations in low-level programming and computer fundamentals.
+#### Hello! I'm **Eduarda Victoria**, also known as **Wahi (wahipogo)**.
+#### I'm a **self-taught programming student**, passionate about learning and creating through technology. I have **basic knowledge of Python** and I’m currently studying **C**, focusing on strengthening my foundations in low-level programming and computer fundamentals.
 ---
 ## 🧠 Technologies & Studies
 
