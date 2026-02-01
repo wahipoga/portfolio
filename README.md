@@ -10,11 +10,6 @@
 ### 🔹 Currently studying
 
 * **C**
-
-### 🔹 Planning to study
-
-* **MySQL**
-* **Linux**
 * **Full Stack Web Development**, including:
 
   * JavaScript (JS)
@@ -22,6 +17,12 @@
   * Node.js
   * HTML
   * CSS
+
+### 🔹 Planning to study
+
+* **MySQL**
+* **Linux**
+* **PHP**
 
 ---
 
