@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Meu Portfólio | [Seu Nome]</title>
+    <link rel="icon" href="https://i.imgur.com/mgxXSto.png" type="image/png">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ===== NAVEGAÇÃO ===== -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">MeuPortfólio</span>
+            </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#home">
+                        <i class="fas fa-home"></i> Início
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">
+                        <i class="fas fa-user"></i> Sobre
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects">
+                        <i class="fas fa-code"></i> Projetos
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact">
+                        <i class="fas fa-envelope"></i> Contato
+                    </a>
+                </li>
+            </ul>
+            
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- ===== SEÇÃO INICIAL/HERO ===== -->
+        <section id="home" class="section hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Olá, eu sou <span class="highlight">[Seu Nome]</span></h1>
+                <h2 class="hero-subtitle">[Seu Cargo/Profissão]</h2>
+                <p class="hero-description">
+                    Sou um(a) [sua profissão] apaixonado(a) por criar soluções inovadoras e eficientes. 
+                    Com experiência em [suas áreas de atuação], busco sempre superar expectativas 
+                    e entregar projetos de alta qualidade.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-eye"></i> Ver Projetos
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i> Entre em Contato
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SEÇÃO SOBRE ===== -->
+        <section id="about" class="section">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Sou um(a) profissional dedicado(a) com [X] anos de experiência na área de [sua área]. 
+                        Minha trajetória começou [conte um pouco sobre como começou] e desde então tenho 
+                        me especializado em [suas especialidades].
+                    </p>
+                    <p>
+                        Acredito na importância de [seus valores profissionais] e busco constantemente 
+                        aprimorar minhas habilidades através de [como se atualiza]. Meu objetivo é 
+                        [seu objetivo profissional].
+                    </p>
+                    <p>
+                        <span class="highlight">Habilidades principais:</span>
+                    </p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Web Design</span>
+                        <span class="skill-tag">Desenvolvimento Front-end</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="[Seu Nome]">
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SEÇÃO PROJETOS ===== -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="projects-grid">
+                <!-- Projeto 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Projeto 1">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Nome do Projeto 1</h3>
+                        <p class="project-description">
+                            Descrição breve do projeto. Explique o que faz, tecnologias usadas e objetivos alcançados.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Projeto 2">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Nome do Projeto 2</h3>
+                        <p class="project-description">
+                            Descrição breve do projeto. Explique o que faz, tecnologias usadas e objetivos alcançados.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Vue.js</span>
+                            <span class="project-tag">Firebase</span>
+                            <span class="project-tag">CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Projeto 3">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Nome do Projeto 3</h3>
+                        <p class="project-description">
+                            Descrição breve do projeto. Explique o que faz, tecnologias usadas e objetivos alcançados.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Django</span>
+                            <span class="project-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SEÇÃO CONTATO ===== -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contact-container">
+                <p class="contact-description">
+                    Estou aberto(a) a novas oportunidades e colaborações. 
+                    Sinta-se à vontade para entrar em contato comigo!
+                </p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>seu.email@exemplo.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Telefone</h3>
+                            <p>+55 (11) 99999-9999</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Localização</h3>
+                            <p>Sua Cidade, Estado</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" target="_blank">
+                        <i class="fab fa-behance"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== RODAPÉ ===== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">MeuPortfólio</div>
+            <p class="footer-text">
+                Desenvolvido com ❤️ por wahipogo • © 2025
+            </p>
+            <div class="footer-links">
+                <a href="#home">Início</a>
+                <a href="#about">Sobre</a>
+                <a href="#projects">Projetos</a>
+                <a href="#contact">Contato</a>
+            </div>
+            <p class="copyright">
+                Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <!-- ===== SCRIPT DE NAVEGAÇÃO ===== -->
+    <script src="script.js"></script>
+</body>
+</html>
