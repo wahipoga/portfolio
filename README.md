@@ -10,14 +10,7 @@
 ### 🔹 Currently studying
 
 * **C**
-* **Full Stack Web Development**, including:
-
-  * JavaScript (JS)
-  * TypeScript (TS)
-  * Node.js
-  * HTML
-  * CSS
-
+* 
 ### 🔹 Planning to study
 
 * **MySQL**
